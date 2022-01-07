@@ -1,3 +1,184 @@
-h1{
-    color: dodgerblue;
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+.section-1{
+    background-color: #fff9e6;
+    display: flex;
+    height: 700px;
+}
+.left-side{
+    margin-left:135px;
+    margin-top: 47px;
+}
+.left-side p{
+    text-align:left;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    padding-bottom:  20px;
+}
+.left-side h1{
+    border-left: 5px solid rgba(17, 17, 16, 0.767);
+    border-radius: 4px;
+    padding-left: 18px;
+    margin-left: 10px;
+    font-size: 60px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 115, 0);
+}
+.left-side span{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(11, 147, 226);
+}
+.left-side button{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    padding: 13px 22px;
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+    margin-bottom: 15px;
+    color: white;
+    background-image: linear-gradient(45deg,rgb(255, 81, 0),rgb(255, 129, 71));
+}
+.left-side button:hover{
+    background-image: linear-gradient(45deg,rgb(255, 115, 0),rgb(11, 147, 226));
+    transition: .2s ease-out;
+    box-shadow: 4px 4px 12px rgb(53, 52, 52);
+    cursor: pointer;
+}
+.left-side h6{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 24px;
+}
+.right-side img{
+    width: 550px;
+    margin-right: 10px;
+    margin-left: 120px;
+    margin-top:50px;
+}
+.section-2{
+    text-align: center;
+    margin-top: 80px;
+    height: 450px;
+}
+.section-2 h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.section-2 span{
+    color: rgb(11, 147, 226);
+}
+.all-boxes{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-1{
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    width: 330px;
+    height: 200px;
+    border-radius: 18px;
+    background-color: rgba(255, 0, 0, 0.315);
+}
+.box-1:hover{
+    box-shadow: 3px 3px 7px rgb(102, 102, 102);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.box-2{
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    width: 330px;
+    height: 200px;
+    border-radius: 18px;
+    background-color: rgba(255, 81, 0, 0.315);
+}
+.box-2:hover{
+    box-shadow: 3px 3px 7px rgb(102, 102, 102);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.box-3{
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    width: 330px;
+    height: 200px;
+    border-radius: 18px;
+    background-color: #9900ff4b;
+}
+.box-3:hover{
+    box-shadow: 3px 3px 7px rgb(102, 102, 102);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.box-info{
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 19px;
+}
+.section-3{
+    display: flex;
+    background-color: #fff9e6;
+    height: 500px;
+    margin-top: 90px;
+}
+.text-part{
+    text-align: center;
+    margin-right: 120px;
+    margin-left: 50px;
+    margin-top:90px ;
+}
+.text-part h1{
+    font-family: 'R', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.text-part button{
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    padding: 15px 22px;
+    border: none;
+    border-radius: 30px;
+    width: 170px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(45deg,rgb(255, 81, 0),rgb(255, 129, 71));
+    color: white;
+    margin-top: 20px;
+}
+.text-part button:hover{
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    background-image: linear-gradient(45deg,rgb(255, 115, 0),rgb(11, 147, 226));
+    transition: .2s ease-out;
+}
+.image-part img{
+    width: 550px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+footer{
+    font-family:'Roboto',serif;
+    margin-top: 5px;
+    padding: 30px;
+    background-color: rgb(18, 51, 87);
+    height: 130px;
+    color: white;
+    text-align: center;
+}
+footer p{
+    color: rgb(207, 188, 188);
+}
+footer span{
+    color: rgba(111, 245, 255, 0.575);
 }
